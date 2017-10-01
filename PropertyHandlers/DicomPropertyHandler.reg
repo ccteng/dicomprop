@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+#
+# The .dcm File Type and corresponding proplists to determine which properties are displayed by Explorer.
+#
+[HKEY_CLASSES_ROOT\BYU.SOT.DicomFile]
+@="DICOM File"
+"InfoTip"="prop:System.ItemType;System.Author;System.Rating;BYU.DicomShell.PatName"
+"FullDetails"="prop:System.PropGroup.Description;System.Title;System.Author;System.Comment;System.Keywords;System.Rating;BYU.DicomShell.PatName;BYU.DicomShell.ImageType;BYU.DicomShell.PhImageFormat;BYU.DicomShell.PatID;BYU.DicomShell.PatBirthDate;BYU.DicomShell.PatGender;BYU.DicomShell.InstName;BYU.DicomShell.StudyDesc;BYU.DicomShell.RefPhysician;BYU.DicomShell.SamplesPerPixel;BYU.DicomShell.PhotometricInterpretation;BYU.DicomShell.ImgRows;BYU.DicomShell.ImgColumns;BYU.DicomShell.TransferSyntax;BYU.DicomShell.SopClassUID;BYU.DicomShell.ManufacturerModel;BYU.DicomShell.TransducerData;BYU.DicomShell.PhImageFormat;System.PropGroup.FileSystem;System.ItemNameDisplay;System.ItemType;System.ItemFolderPathDisplay;System.Size;System.DateCreated;System.DateModified;System.DateAccessed;System.FileAttributes;System.OfflineAvailability;System.OfflineStatus;System.SharedWith;System.FileOwner;System.ComputerName"
+"PreviewDetails"="prop:System.DateChanged;System.Author;System.Keywords;BYU.DicomShell.PatName;BYU.DicomShell.ImageType;BYU.DicomShell.PhImageFormat;BYU.DicomShell.PatID;BYU.DicomShell.PatBirthDate;BYU.DicomShell.PatGender;BYU.DicomShell.InstName;BYU.DicomShell.StudyDesc;BYU.DicomShell.RefPhysician;BYU.DicomShell.SamplesPerPixel;BYU.DicomShell.PhotometricInterpretation;BYU.DicomShell.ImgRows;BYU.DicomShell.ImgColumns;BYU.DicomShell.TransferSyntax;BYU.DicomShell.SopClassUID;BYU.DicomShell.ManufacturerModel;BYU.DicomShell.TransducerData;BYU.DicomShell.PhImageFormat; System.Rating;System.Comment;System.Size;System.ItemFolderPathDisplay;System.DateCreated"
+"PreviewTitle"="prop:System.Title;System.ItemType"
+"ContentViewModeForBrowse"="prop:~System.ItemNameDisplay;~System.ItemFolderPathDisplay;BYU.DicomShell.InstName;BYU.DicomShell.PatName;System.DateModified;System.Size;~BYU.DicomShell.SopClassUID"
+"ContentViewModeLayoutPatternForBrowse"="alpha"
+"ContentViewModeForSearch"="prop:~System.ItemNameDisplay;~System.ItemFolderPathDisplay;BYU.DicomShell.InstName;BYU.DicomShell.PatName;System.DateModified;System.Size;~BYU.DicomShell.SopClassUID"
+"ContentViewModeLayoutPatternForSearch"="alpha"
+
+[HKEY_CLASSES_ROOT\.dcm]
+@="BYU.SOT.DicomFile"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.dcm]
+@="DICOM File"
+"InfoTip"="prop:System.ItemType;System.Author;System.Rating;BYU.DicomShell.PatName"
+"FullDetails"="prop:System.PropGroup.Description;System.Title;System.Author;System.Comment;System.Keywords;System.Rating;BYU.DicomShell.PatName;BYU.DicomShell.ImageType;BYU.DicomShell.PhImageFormat;BYU.DicomShell.PatID;BYU.DicomShell.PatBirthDate;BYU.DicomShell.PatGender;BYU.DicomShell.InstName;BYU.DicomShell.StudyDesc;BYU.DicomShell.RefPhysician;BYU.DicomShell.SamplesPerPixel;BYU.DicomShell.PhotometricInterpretation;BYU.DicomShell.ImgRows;BYU.DicomShell.ImgColumns;BYU.DicomShell.TransferSyntax;BYU.DicomShell.SopClassUID;BYU.DicomShell.ManufacturerModel;BYU.DicomShell.TransducerData;BYU.DicomShell.PhImageFormat;System.PropGroup.FileSystem;System.ItemNameDisplay;System.ItemType;System.ItemFolderPathDisplay;System.Size;System.DateCreated;System.DateModified;System.DateAccessed;System.FileAttributes;System.OfflineAvailability;System.OfflineStatus;System.SharedWith;System.FileOwner;System.ComputerName"
+"PreviewDetails"="prop:System.DateChanged;System.Author;System.Keywords;BYU.DicomShell.PatName;BYU.DicomShell.ImageType;BYU.DicomShell.PhImageFormat;BYU.DicomShell.PatID;BYU.DicomShell.PatBirthDate;BYU.DicomShell.PatGender;BYU.DicomShell.InstName;BYU.DicomShell.StudyDesc;BYU.DicomShell.RefPhysician;BYU.DicomShell.SamplesPerPixel;BYU.DicomShell.PhotometricInterpretation;BYU.DicomShell.ImgRows;BYU.DicomShell.ImgColumns;BYU.DicomShell.TransferSyntax;BYU.DicomShell.SopClassUID;BYU.DicomShell.ManufacturerModel;BYU.DicomShell.TransducerData;BYU.DicomShell.PhImageFormat; System.Rating;System.Comment;System.Size;System.ItemFolderPathDisplay;System.DateCreated"
+"PreviewTitle"="prop:System.Title;System.ItemType"
+"ContentViewModeForBrowse"="prop:~System.ItemNameDisplay;~System.ItemFolderPathDisplay;BYU.DicomShell.InstName;BYU.DicomShell.PatName;System.DateModified;System.Size;~BYU.DicomShell.SopClassUID"
+"ContentViewModeLayoutPatternForBrowse"="alpha"
+"ContentViewModeForSearch"="prop:~System.ItemNameDisplay;~System.ItemFolderPathDisplay;BYU.DicomShell.InstName;BYU.DicomShell.PatName;System.DateModified;System.Size;~BYU.DicomShell.SopClassUID"
+"ContentViewModeLayoutPatternForSearch"="alpha"
+

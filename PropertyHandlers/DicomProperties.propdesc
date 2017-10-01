@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+	This propdesc file contains the descriptions of Recipe Sample custom properties.
+        It should be located in the same directory as the handler DLL.
+
+        To install: 'rundll32 DicomPropertyHandler.dll,InstallPropertySchema'
+        To uninstall: 'rundll32 DicomPropertyHandler.dll,UninstallPropertySchema'
+
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://schemas.microsoft.com/windows/2006/propertydescription"
+        schemaVersion="1.0">
+  <propertyDescriptionList publisher="BYU" product="DicomShell">
+    <propertyDescription name="BYU.DicomShell.ImageType" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="524296">
+      <description>This property indicates the image type of a DICOM file.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Image type" invitationText="Specify image type" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PatName" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="1048592">
+      <description>This property indicates the patient name.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Patient name" invitationText="Specify patient name" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.InstName" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="524416">
+      <description>This property indicates the institution name.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Institution name" invitationText="Specify institution name" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.StudyDesc" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="528432">
+      <description>This property indicates the study description.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Study description" invitationText="Specify study description" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.ReferringPhysician" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="524432">
+      <description>This property indicates the referring physician.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Referring physician" invitationText="Specify referring physician" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PatID" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="1048608">
+      <description>This property indicates the patient idenfication number.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Patient ID" invitationText="Specify patient identification number" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PatBirthDate" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="1048624">
+      <description>This property indicates the patient's birth date.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="DateTime" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Patient birth date" invitationText="Specify patient birth date" />
+      <displayInfo>
+        <dateTimeFormat formatDateAs="ShortDate" formatTimeAs="HideTime" />
+      </displayInfo>
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PatGender" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="1048640">
+      <description>This property indicates the patient's gender.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Gender" invitationText="Specify patient gender" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.ImgRows" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="2621456">
+      <description>This property indicates the number of rows in this image.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Rows" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.ImgColumns" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="2621457">
+      <description>This property indicates the number of columns in this image.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Columns" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.ImageDate" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="524323">
+      <description>This property indicates the image date.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="DateTime" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Image date" invitationText="" />
+      <displayInfo>
+        <dateTimeFormat formatDateAs="ShortDate" formatTimeAs="HideTime" />
+      </displayInfo>
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.TransferSyntax" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="131088">
+      <description>This property indicates the transfer syntax.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Transfer syntax" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.SopClassUID" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="524310">
+      <description>This property indicates the SOP class UID.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="SOP class UID" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.ManufacturerModel" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="528528">
+      <description>This property indicates the manufacture model.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Manufacturer model" invitationText="specify manufacturer model" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.TransducerData" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="1593360">
+      <description>This property indicates the transducer data.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Transducer data" invitationText="Specify transducer data" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PhImageFormat" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="537731077">
+      <description>This property indicates the Philips image format.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Philips Image format" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.SamplesPerPixel" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="2621442">
+      <description>This property indicates the number of samples per pixel.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Samples Per Pixel" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+    <propertyDescription name="BYU.DicomShell.PhotometricInterpretation" formatID="{a691c6de-235c-4b41-88a9-51f8870c8267}" propID="2621444">
+      <description>This property indicates the photometric interpretation.</description>
+      <searchInfo inInvertedIndex="true" isColumn="true" columnIndexType="OnDisk"/>
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="true"/>
+      <labelInfo label="Photometric Interpretation" invitationText="" />
+      <displayInfo displayType="String" />
+    </propertyDescription>
+  </propertyDescriptionList>
+</schema>
